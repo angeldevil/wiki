@@ -291,17 +291,19 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
 
+<li>Google关键词挖掘</li>
+
+<li>JCenter上传后只有POM文件没有AAR</li>
+
 <li>发掘痛点</li>
-
-<li>心理表征与刻意练习</li>
-
-<li>需求拓展</li>
 
 <li>学习-改变成长困境必备的7种能力-彭小六</li>
 
 <li>学习行为的三个层次</li>
 
-<li>Google关键词挖掘</li>
+<li>心理表征与刻意练习</li>
+
+<li>需求拓展</li>
 
 </ul>
 </p>
@@ -11405,7 +11407,7 @@ Error message and password prompt
 <div created="20170313031121481" modified="20170314133406570" title="$:/state/tabs/controlpanel/toolbars-1345989671">
 <pre>$:/core/ui/ControlPanel/Toolbars/EditToolbar</pre>
 </div>
-<div list="学习-改变成长困境必备的7种能力-彭小六" title="$:/StoryList">
+<div list="JCenter上传后只有POM文件没有AAR" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -11876,10 +11878,85 @@ This plugin contains tools to help slice up long texts into individual tiddlers.
 <div created="20170313031555584" modified="20170313031555584" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fluid-fixed</pre>
 </div>
+<div created="20170313121108955" modified="20170407023400519" tags="关键词挖掘 痛点 思路扩展" title="Google关键词挖掘">
+<pre>Google搜索关键词，如''Instagram''，在下拉框和推荐搜索词会提示几组词。
+这些都是用户经常搜索的内容，可能就是用户的痛点，需要进一点确认痛点是否存在，如用户会搜''Instagram Download Pictures''，去Instagram进行验证，确实图片不能下载，Instagram进行了限制，那么这个痛点就确实存在，毕竟大多数用户都是小白。
+用''Instagram Download Pictures''搜索，可以发现有现成的解决方案，通过研究这些解决方案可以了解到它们的商业模式
+
+通过外链查询网站，如ahrefs.com等查询上一步中提供解决方案的网站，分析它的流量来源，会发现很多工具性产品的评测网站，自己的站点做出来后可以联系这些网站对自己的网站进行评测，会带来巨大流量。
+
+参考：[[Google关键词挖掘细分市场实战案例|https://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&amp;mid=2649867208&amp;idx=1&amp;sn=6edf8fd863177b11b08ef600772b47a3&amp;chksm=f10759a5c670d0b3260cd8d616640ddd4d63a9d3025a6c75cdfa3df537dde0a2647dd552fa43&amp;scene=0&amp;key=81058a66e1c3783bf0272e4052bb938302063b2545e98ace7f704935dd85c4c1909a7b1dc8e22a7fec2a7b69adac8c05e3c01fde9b67171f7fac57f92823fd228e6ed57910e9bdd9408d784f9d89c42e&amp;ascene=0&amp;uin=NDg0NTc3MjQw&amp;devicetype=iMac+MacBookPro11%2C4+OSX+OSX+10.12.3+build(16D32)&amp;version=12020010&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=j5spn4zTe89il1kPL2XwOncaGWR3iQmSF4AtxZk6eharniRFo8q2Yzg3WlfcvUvP]]</pre>
+</div>
+<div created="20171201073211215" modified="20171201073900901" tags="Android JCenter" title="JCenter上传后只有POM文件没有AAR" type="text/x-markdown">
+<pre>Library Module的名字和artifactId不一致导致的。
+
+可以重命名Module名字，或通过以下方式指定另一个名称
+
+    // settings.gradle
+
+    include ':library'
+    project(&quot;:library&quot;).name = &quot;[artifactId name]&quot;</pre>
+</div>
 <div created="20170407021109993" modified="20170407023105544" tags="痛点" title="发掘痛点" type="text/x-markdown">
 <pre>如果你有一个问题，你费力解决了，那么别人也可能有相同的问题，这样你就发现了一直需求，你可以把解决方法，或相关的资料进行整理，然后就可以出售，或做个网站、工具，以此来赚钱。比如：
 
 &gt; 考研时整理的资料可以拿来出售。</pre>
+</div>
+<div created="20170314133720190" leaning="" modified="20170703031953154" tags="知识管理 学习 阅读" title="学习-改变成长困境必备的7种能力-彭小六" type="text/x-markdown">
+<pre># 阅读
+
+ - 快速阅读  
+快速了解一个知识的大概面貌  
+ - 主题阅读  
+系统地了解一个领域，要带着问题阅读，需要快速阅读的技巧，这样才能快速地在一本甚至多本书中找到自己要了解的东西
+ - 精读  
+认真研究一本好书，有以下两个技巧  
+-  迁移 - 将一个领域的知识应用到另一个领域
+- 溯源 - 遇到一个理论的时候，去查找这个理论最初的来源，这个理论是为了解决什么问题，是怎么被提出来的，了解了它是解决什么问题的，就更能理解它的适用范围，以及它的局限。
+
+#要像猎人一样学习
+
+明确自己的目标，将学到的知识添加到自己的知识树里面
+
+![像猎人一样学习](./images/像猎人一样学习.jpeg)
+
+#拆解信息为自己所用
+
+一篇文章可能讲了很多知识，但这篇文章可以细分为很多片断，给每个片断进行分类，打标签，归纳到自己的知识树，使之成为自己的知识
+
+#7个能力
+
+ - 精力
+ - 学习力
+ - 知识管理力
+ - 练习力
+ - 分享力
+ - 行动力
+ - 人脉力
+
+![七个能力](./images/7个能力.png)</pre>
+</div>
+<div created="20170427064536020" modified="20170427064559591" tags="学习 知识管理" title="学习行为的三个层次" type="text/x-markdown">
+<pre>学习行为的三个层次
+
+- 给予启发
+- 构建一套健全的知识理论体系、思考逻辑或工作方法
+- 提升具体能力
+
+
+高手们花70%左右的时间去关注“获得启发”，20%左右的时间精力用来关注“构建某些新的知识体系经”，而仅有不到10%的时间精力用来“提升具体技能”。为什么会这样，为什么这种时间分配方法对普通人不起作用？
+
+因为对于这些高手而言，他们的能力已经比较确定了，每个人都有了自己和有明确的长处和短板，他们只需要把自己的长处发挥到极致，至于自己的短板，可以避开，或找一个擅长干此事的人来帮自己解决。
+
+另一方面，他们在自己的领域往往都已经有了一套自己的方法论，所以也不怎么用考虑构建知识体系的事了。
+
+所以，他们最需要的就是“获得启发”。
+
+而对于普通人，或者说对某一领域刚入门的小白，最重要的是要提升能力，要花最多的时间在这个上面，其次是要构建知识体系，最后才是获得启发，但获得启发这一步一定不能少，注意，是少，但不能没有。
+
+比如编程，对于小白来说，进入某一领域时，首先要关注的不是别人对架构等方面的思考（启发），而是基础能力的提升，学习怎么写Hello World，怎么入门，其实要构建自己在这个领域的知识体系，注意这个领域都包含哪些方法的知识，彼此的关联是什么，自己在哪些方面的不足需要补齐短板。当水平到达一定层次的时候，才偏重获得启发。
+
+但处于不同的阶段只是对这三个层次的时间分配侧重不同，每一个方面仍需要关注。进入一个新的领域时，先尽快地粗略地了解这个领域的全貌（构建知识体系），比一上来就钻到细节（提升具体能力）重要得多。</pre>
 </div>
 <div created="20170510075527135" modified="20170510075608329" tags="学习" title="心理表征与刻意练习" type="text/x-markdown">
 <pre># 心理表征
@@ -12010,71 +12087,6 @@ This plugin contains tools to help slice up long texts into individual tiddlers.
 ## 需求的扩展
 
 你做了下载Instgram图片的工具，那是否可以做视频下载，是否可以做批量下载，是否可以做图片合成。</pre>
-</div>
-<div created="20170314133720190" leaning="" modified="20170703031953154" tags="知识管理 学习 阅读" title="学习-改变成长困境必备的7种能力-彭小六" type="text/x-markdown">
-<pre># 阅读
-
- - 快速阅读  
-快速了解一个知识的大概面貌  
- - 主题阅读  
-系统地了解一个领域，要带着问题阅读，需要快速阅读的技巧，这样才能快速地在一本甚至多本书中找到自己要了解的东西
- - 精读  
-认真研究一本好书，有以下两个技巧  
--  迁移 - 将一个领域的知识应用到另一个领域
-- 溯源 - 遇到一个理论的时候，去查找这个理论最初的来源，这个理论是为了解决什么问题，是怎么被提出来的，了解了它是解决什么问题的，就更能理解它的适用范围，以及它的局限。
-
-#要像猎人一样学习
-
-明确自己的目标，将学到的知识添加到自己的知识树里面
-
-![像猎人一样学习](./images/像猎人一样学习.jpeg)
-
-#拆解信息为自己所用
-
-一篇文章可能讲了很多知识，但这篇文章可以细分为很多片断，给每个片断进行分类，打标签，归纳到自己的知识树，使之成为自己的知识
-
-#7个能力
-
- - 精力
- - 学习力
- - 知识管理力
- - 练习力
- - 分享力
- - 行动力
- - 人脉力
-
-![七个能力](./images/7个能力.png)</pre>
-</div>
-<div created="20170427064536020" modified="20170427064559591" tags="学习 知识管理" title="学习行为的三个层次" type="text/x-markdown">
-<pre>学习行为的三个层次
-
-- 给予启发
-- 构建一套健全的知识理论体系、思考逻辑或工作方法
-- 提升具体能力
-
-
-高手们花70%左右的时间去关注“获得启发”，20%左右的时间精力用来关注“构建某些新的知识体系经”，而仅有不到10%的时间精力用来“提升具体技能”。为什么会这样，为什么这种时间分配方法对普通人不起作用？
-
-因为对于这些高手而言，他们的能力已经比较确定了，每个人都有了自己和有明确的长处和短板，他们只需要把自己的长处发挥到极致，至于自己的短板，可以避开，或找一个擅长干此事的人来帮自己解决。
-
-另一方面，他们在自己的领域往往都已经有了一套自己的方法论，所以也不怎么用考虑构建知识体系的事了。
-
-所以，他们最需要的就是“获得启发”。
-
-而对于普通人，或者说对某一领域刚入门的小白，最重要的是要提升能力，要花最多的时间在这个上面，其次是要构建知识体系，最后才是获得启发，但获得启发这一步一定不能少，注意，是少，但不能没有。
-
-比如编程，对于小白来说，进入某一领域时，首先要关注的不是别人对架构等方面的思考（启发），而是基础能力的提升，学习怎么写Hello World，怎么入门，其实要构建自己在这个领域的知识体系，注意这个领域都包含哪些方法的知识，彼此的关联是什么，自己在哪些方面的不足需要补齐短板。当水平到达一定层次的时候，才偏重获得启发。
-
-但处于不同的阶段只是对这三个层次的时间分配侧重不同，每一个方面仍需要关注。进入一个新的领域时，先尽快地粗略地了解这个领域的全貌（构建知识体系），比一上来就钻到细节（提升具体能力）重要得多。</pre>
-</div>
-<div created="20170313121108955" modified="20170407023400519" tags="关键词挖掘 痛点 思路扩展" title="Google关键词挖掘">
-<pre>Google搜索关键词，如''Instagram''，在下拉框和推荐搜索词会提示几组词。
-这些都是用户经常搜索的内容，可能就是用户的痛点，需要进一点确认痛点是否存在，如用户会搜''Instagram Download Pictures''，去Instagram进行验证，确实图片不能下载，Instagram进行了限制，那么这个痛点就确实存在，毕竟大多数用户都是小白。
-用''Instagram Download Pictures''搜索，可以发现有现成的解决方案，通过研究这些解决方案可以了解到它们的商业模式
-
-通过外链查询网站，如ahrefs.com等查询上一步中提供解决方案的网站，分析它的流量来源，会发现很多工具性产品的评测网站，自己的站点做出来后可以联系这些网站对自己的网站进行评测，会带来巨大流量。
-
-参考：[[Google关键词挖掘细分市场实战案例|https://mp.weixin.qq.com/s?__biz=MzI0MjA1Mjg2Ng==&amp;mid=2649867208&amp;idx=1&amp;sn=6edf8fd863177b11b08ef600772b47a3&amp;chksm=f10759a5c670d0b3260cd8d616640ddd4d63a9d3025a6c75cdfa3df537dde0a2647dd552fa43&amp;scene=0&amp;key=81058a66e1c3783bf0272e4052bb938302063b2545e98ace7f704935dd85c4c1909a7b1dc8e22a7fec2a7b69adac8c05e3c01fde9b67171f7fac57f92823fd228e6ed57910e9bdd9408d784f9d89c42e&amp;ascene=0&amp;uin=NDg0NTc3MjQw&amp;devicetype=iMac+MacBookPro11%2C4+OSX+OSX+10.12.3+build(16D32)&amp;version=12020010&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=j5spn4zTe89il1kPL2XwOncaGWR3iQmSF4AtxZk6eharniRFo8q2Yzg3WlfcvUvP]]</pre>
 </div>
 
 </div>
